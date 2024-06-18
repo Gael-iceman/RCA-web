@@ -1,0 +1,33 @@
+.heroo{
+    width: 100%;
+    min-height: 100vh;
+    background:url('../../assets/header-back.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroo-text{
+   text-align: center;
+   max-width: 800px;
+}
+.heroo-text h1{
+    font-size: 110px;
+}
+
+@media (max-width:917px){
+     .heroo-text h1{
+        font-size: 90px;
+     }
+}
+
+@media (max-width:714px){
+    .heroo-text h1{
+       font-size: 57px;
+       max-width: 400px;
+       margin: auto;
+    }
+}

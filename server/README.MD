@@ -1,0 +1,1 @@
+<!-- put a database called "adminn" and create a collection called "admins" and "users" -->
